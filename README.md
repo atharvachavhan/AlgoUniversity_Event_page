@@ -2,7 +2,6 @@
 
 <div align="center">
 
-![AlgoUniversity Logo](https://img.shields.io/badge/AlgoUniversity-Event%20Platform-orange?style=for-the-badge&logo=graduation-cap)
 
 **A stunning, modern event platform that combines the best design elements from industry leaders**
 
