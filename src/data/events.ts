@@ -1,0 +1,162 @@
+import { Event } from '../types';
+
+export const events: Event[] = [
+  {
+    id: '1',
+    title: 'Data Structures & Algorithms Deep Dive',
+    date: '2025-01-15',
+    time: '19:00',
+    description: 'Master the fundamental concepts of DSA with hands-on coding sessions and real interview problems.',
+    instructor: {
+      name: 'Sarah Chen',
+      photo: 'https://images.pexels.com/photos/1181690/pexels-photo-1181690.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop',
+      bio: 'Senior Software Engineer at Google with 8 years of experience in algorithm optimization.',
+      credentials: 'Google, Stanford CS PhD'
+    },
+    category: 'masterclass',
+    difficulty: 'Intermediate',
+    thumbnail: 'https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop',
+    capacity: 30,
+    registered: 23,
+    price: 2999,
+    duration: '3 hours',
+    prerequisites: ['Basic programming knowledge', 'Understanding of loops and conditionals'],
+    learningObjectives: ['Master time and space complexity', 'Solve complex algorithmic problems', 'Optimize code performance'],
+    rating: 4.8,
+    tags: ['algorithms', 'data-structures', 'interviews'],
+    isWaitlist: false,
+    startDate: new Date('2025-01-15T19:00:00')
+  },
+  {
+    id: '2',
+    title: 'React & Next.js Modern Development',
+    date: '2025-01-18',
+    time: '20:00',
+    description: 'Build scalable web applications using React 18, Next.js 14, and modern development practices.',
+    instructor: {
+      name: 'Alex Rodriguez',
+      photo: 'https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop',
+      bio: 'Full Stack Developer at Meta, specializing in React ecosystem and performance optimization.',
+      credentials: 'Meta, React Core Contributor'
+    },
+    category: 'coding',
+    difficulty: 'Advanced',
+    thumbnail: 'https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop',
+    capacity: 25,
+    registered: 18,
+    price: 3499,
+    duration: '4 hours',
+    prerequisites: ['JavaScript ES6+', 'Basic React knowledge', 'HTML/CSS proficiency'],
+    learningObjectives: ['Build modern React applications', 'Implement server-side rendering', 'Optimize performance'],
+    rating: 4.9,
+    tags: ['react', 'nextjs', 'frontend'],
+    isWaitlist: false,
+    startDate: new Date('2025-01-18T20:00:00')
+  },
+  {
+    id: '3',
+    title: 'System Design Interview Preparation',
+    date: '2025-01-20',
+    time: '18:30',
+    description: 'Learn to design scalable systems and ace your technical interviews at top tech companies.',
+    instructor: {
+      name: 'Priya Sharma',
+      photo: 'https://images.pexels.com/photos/1181677/pexels-photo-1181677.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop',
+      bio: 'Staff Engineer at Amazon, experienced in large-scale distributed systems.',
+      credentials: 'Amazon, Microsoft, IIT Delhi'
+    },
+    category: 'masterclass',
+    difficulty: 'Advanced',
+    thumbnail: 'https://images.pexels.com/photos/1181271/pexels-photo-1181271.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop',
+    capacity: 40,
+    registered: 35,
+    price: 4499,
+    duration: '5 hours',
+    prerequisites: ['5+ years programming experience', 'Understanding of databases', 'Network protocols knowledge'],
+    learningObjectives: ['Design scalable architectures', 'Handle system trade-offs', 'Prepare for senior interviews'],
+    rating: 4.7,
+    tags: ['system-design', 'interviews', 'architecture'],
+    isWaitlist: false,
+    startDate: new Date('2025-01-20T18:30:00')
+  },
+  {
+    id: '4',
+    title: 'Python for Data Science Bootcamp',
+    date: '2025-01-22',
+    time: '19:30',
+    description: 'Comprehensive bootcamp covering Python, pandas, numpy, and machine learning basics.',
+    instructor: {
+      name: 'Dr. Michael Thompson',
+      photo: 'https://images.pexels.com/photos/1181644/pexels-photo-1181644.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop',
+      bio: 'Data Scientist at Netflix, PhD in Machine Learning from MIT.',
+      credentials: 'Netflix, MIT PhD, Kaggle Grandmaster'
+    },
+    category: 'workshop',
+    difficulty: 'Beginner',
+    thumbnail: 'https://images.pexels.com/photos/1181298/pexels-photo-1181298.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop',
+    capacity: 50,
+    registered: 42,
+    price: 1999,
+    duration: '6 hours',
+    prerequisites: ['Basic programming knowledge', 'High school mathematics'],
+    learningObjectives: ['Master Python for data analysis', 'Build ML models', 'Visualize data effectively'],
+    rating: 4.6,
+    tags: ['python', 'data-science', 'machine-learning'],
+    isWaitlist: false,
+    startDate: new Date('2025-01-22T19:30:00')
+  },
+  {
+    id: '5',
+    title: 'AI/ML Career Bootcamp',
+    date: '2025-01-25',
+    time: '18:00',
+    description: 'Intensive bootcamp to transition into AI/ML roles with hands-on projects and career guidance.',
+    instructor: {
+      name: 'Dr. Aisha Patel',
+      photo: 'https://images.pexels.com/photos/1181695/pexels-photo-1181695.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop',
+      bio: 'AI Research Scientist at OpenAI, former Tesla Autopilot team member.',
+      credentials: 'OpenAI, Tesla, Stanford PhD'
+    },
+    category: 'masterclass',
+    difficulty: 'Advanced',
+    thumbnail: 'https://images.pexels.com/photos/1181304/pexels-photo-1181304.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop',
+    capacity: 30,
+    registered: 30,
+    price: 5999,
+    duration: '8 hours',
+    prerequisites: ['Python programming', 'Statistics knowledge', 'Linear algebra basics'],
+    learningObjectives: ['Build end-to-end ML pipelines', 'Deploy AI models', 'Navigate AI career paths'],
+    rating: 4.9,
+    tags: ['ai', 'machine-learning', 'career'],
+    isWaitlist: true,
+    startDate: new Date('2025-01-25T18:00:00')
+  },
+  {
+    id: '6',
+    title: 'Frontend Performance Optimization',
+    date: '2025-01-28',
+    time: '20:30',
+    description: 'Advanced techniques to optimize frontend performance and deliver lightning-fast web experiences.',
+    instructor: {
+      name: 'James Wilson',
+      photo: 'https://images.pexels.com/photos/1181650/pexels-photo-1181650.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop',
+      bio: 'Performance Engineer at Shopify, expert in web optimization and Core Web Vitals.',
+      credentials: 'Shopify, Chrome Team Advisor'
+    },
+    category: 'coding',
+    difficulty: 'Advanced',
+    thumbnail: 'https://images.pexels.com/photos/1181325/pexels-photo-1181325.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop',
+    capacity: 35,
+    registered: 28,
+    price: 2799,
+    duration: '3.5 hours',
+    prerequisites: ['JavaScript proficiency', 'Web development experience', 'Understanding of HTTP'],
+    learningObjectives: ['Optimize loading performance', 'Implement lazy loading', 'Master caching strategies'],
+    rating: 4.8,
+    tags: ['performance', 'optimization', 'frontend'],
+    isWaitlist: false,
+    startDate: new Date('2025-01-28T20:30:00')
+  }
+];
+
+export const featuredEvents = events.slice(0, 4);
