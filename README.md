@@ -268,7 +268,7 @@ We welcome contributions! Please feel free to submit a Pull Request. For major c
 
 **Built with ❤️ for the AlgoUniversity Community**
 
-[![GitHub stars](https://img.shields.io/github/stars/username/repo?style=social)](https://github.com/username/repo)
+[![GitHub stars](https://img.shields.io/github/stars/username/repo?style=social)](https://github.com/atharvachavhan/AlgoUniversity_Event_page)
 [![Twitter Follow](https://img.shields.io/twitter/follow/algouniversity?style=social)](https://twitter.com/algouniversity)
 
 </div>
