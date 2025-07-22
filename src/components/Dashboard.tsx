@@ -153,7 +153,7 @@ const Dashboard: React.FC = () => {
           </div>
         </div>
 
-        {/* Calendar View */}
+        {/* for Calendar View */}
         <div className="mt-8 bg-white rounded-xl shadow-sm p-6">
           <h3 className="text-lg font-semibold text-gray-900 mb-4">Event Calendar</h3>
           <div className="grid grid-cols-7 gap-1 text-center">
